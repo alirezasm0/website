@@ -1,0 +1,56 @@
+.topnave{
+    background-color: rgb(180, 175, 175);
+    overflow: hidden;
+  }
+  .topnave a{
+      color: green;
+      font-weight: 30px;
+      float: right;
+      padding: 2em;
+      font-size: large;
+      text-decoration: none;
+      text-align: center;
+      border: 1px outset rgb(59, 57, 57);
+     
+  }
+  .lactive{
+    
+    background-color: yellow !important;
+    color: black !important;
+}  
+.lactive:hover{
+     background-color: black !important;
+     color: crimson !important;
+     transition: .5s;
+
+        
+}
+.container1{
+    background-image: url(./images1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pro{
+    direction: rtl;
+    font-size: 110%;
+    font-weight: normal;
+}
+.container2{
+    text-align: right;
+    direction: rtl;
+  }
+  .rowjustify-content-center{
+    text-align: right;
+    direction: rtl;
+
+  }
+  .col-sm-4 col-md-3 item{
+    text-align: right;
+    direction: rtl;  
+  }
+  .col-lg-3itemsocial{
+      font-size: 110%;
+
+  }

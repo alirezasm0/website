@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fa-IR">
+<head>
+ <meta charset="UTF-8">
+        <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+        <title>
+            Kargah
+        </title>
+        <link rel="stylesheet" href="style3.css">
+</head>
+
+<body class="container1">
+	<div class="topnave">
+        <a href="./index.html" class="lactive">
+            صفحه اصلی
+        </a>
+            <a href="./index2.html" class="active">
+                مهارت ها و توانمندی ها  
+             </a>
+            <a href="index4.html">
+                افتخارات و دستاوردها
+            </a>
+            <a href="#">
+                تماس با من
+            </a>
+            
+            
+        </div>
+		<div class="form">
+			<h2>تماس با من</h2>
+
+
+
+					<form action="/action_page.php">
+					  <label for="fname">نام</label><br>
+					  <input type="text" id="fname" name="fname" value=""><br>
+					  <label for="lname">نام خانوادگی</label><br>
+					  <input type="text" id="lname" name="lname" value=""><br><br>
+                      <label for="email">ایمیل</label>
+                      <input type="email" id="email" name="email">
+                     
+                      <br>
+                      <br>
+
+                      <button onclick="myFunction()">برای ارسال کلیک کنید</button>
+                      
+                      <p id="demo"></p>
+                      
+                      <script>
+                      function myFunction() {
+                        var txt;
+                        var r = confirm("ایا اطمینان دارید؟");
+                        if (r == true) {
+                          txt = "ارسال شد";
+                        } else {
+                          txt = "ارسال نشد";
+                        }
+                        document.getElementById("demo").innerHTML = txt;
+                      }
+                      </script>
+                      
+					</form> 
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br> 
+                    <br>
+        
+	</div>
+            <!-- Footer -->
+            <footer>
+                <div class="container2">
+                    <div class="rowjustify-content-center">
+                        
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>من را دنبال کنید</h3>
+                            <ul>
+                                <li><a href="#">دانشگاه</a></li>
+                                <li><a href="#">instagram</a></li>
+                                <li><a href="#">twitter</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-lg-3itemsocial"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">علیرضا سلیمیان</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
